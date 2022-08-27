@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+
 import './App.css';
+import React, { Main } from './Pages/Main'
 
 function App() {
   return (
@@ -7,6 +8,9 @@ function App() {
       <header className="App-header">
         hello this is my project
       </header>
+      <div>
+        <Main />
+      </div>
     </div>
   );
 }

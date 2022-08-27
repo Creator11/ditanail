@@ -2,6 +2,6 @@ import React from 'react';
 
  
 
-export function Main(props) {
-    return <h1>Привет, {props.name}</h1>;
+export function Main() {
+    return <h1>Привет, Main</h1>;
 }
