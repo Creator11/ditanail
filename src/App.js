@@ -1,12 +1,11 @@
-
-import './App.css';
-import React, { Main } from './Pages/Main'
-
+import './App.less';
+import React, { Main } from './Pages/Main/Main'
+import Menu from './Components/Menu/Menu'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        hello this is my project
+        <Menu/> 
       </header>
       <div>
         <Main />
